@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Memory Converter
+        </title>
+        <link rel="stylesheet" href ="style.css"/>
+    </head>
+    <body>
+        <h1>Memory Conveter</h1>
+        <h5>Choose the Memory Type</h5>
+        Enter Value : <input type="number" id="value" placeholder="Input any number"/>
+    </br> </br>
+            Choose Type : <select id="f1" onchange="gettype()">
+                <option>Choose any type</option>
+            <option value="Bytes">Bytes</option>
+            <option value="Gb">Gb</option>
+            <option value="Bits">Bits</option>
+        </select>
+    </br> </br> 
+    Choose Type :  <select id="f2" onchange="gettype()">
+        <option>Choose any type</option>
+            <option value="Bytes">Bytes</option>
+            <option value="Gb">Gb</option>
+            <option value="Bits">Bits</option>
+        </select>
+    </br></br>
+    <button onclick="calculate()">Convert</button>
+</br></br>
+    <div id="output"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
+
+
